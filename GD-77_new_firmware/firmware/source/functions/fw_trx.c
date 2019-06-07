@@ -34,7 +34,7 @@ int trx_measure_count = 0;
 
 const int RADIO_VHF_MIN			=	1340000;
 const int RADIO_VHF_MAX			=	1740000;
-const int RADIO_UHF_MIN			=	4000000;
+const int RADIO_UHF_MIN			=	2000000;
 const int RADIO_UHF_MAX			=	5200000;
 
 static int currentMode = RADIO_MODE_NONE;

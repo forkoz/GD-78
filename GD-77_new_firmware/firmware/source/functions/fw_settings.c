@@ -30,10 +30,10 @@
 #include "fw_trx.h"
 #include "menu/menuSystem.h"
 
-const int BAND_VHF_MIN 	= 1440000;
-const int BAND_VHF_MAX 	= 1480000;
-const int BAND_UHF_MIN 	= 4300000;
-const int BAND_UHF_MAX 	= 4500000;
+const int BAND_VHF_MIN 	= 1340000;
+const int BAND_VHF_MAX 	= 1740000;
+const int BAND_UHF_MIN 	= 2000000;
+const int BAND_UHF_MAX 	= 5200000;
 
 static const int STORAGE_BASE_ADDRESS = 0xFF00;
 static const int STORAGE_MAGIC_NUMBER = 0x4714;
